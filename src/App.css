@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* NAV */
+
+nav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    background: rgb(70, 80, 90);
+}
+
+nav * {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+#navLinks {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+/* HOMEPAGE */
+
+#homepage {
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#homepage p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 56px;
+    font-weight: bolder;
+}
+
+#homepage img {
+    height: 70vh;
+}
+
+#footerHomepage {
+    position: fixed;
+    bottom: 0;
+    color: lightgray;
+}
+
+#footerHomepage * {
+    text-decoration: none;
+    color: lightgray;
+}
+
+/* LIST OF COUNTRIES */
+
+#listOfCountries {
+    width: 100%;
+    margin-top: 5vh;
+}
+
+#listOfCountries * {
+    padding: 10px;
+    text-align: center;
+}
+
+#listOfCountries > thead,
+tbody > tr:nth-child(even) {
+    background: rgb(70, 80, 90);
+    color: white;
+}
+
+#listOfCountries img {
+    height: 25px;
+    padding: 0;
+}
+
+.arrows {
+    filter: invert(1);
+}
+
+.buttons[type="checkbox"] {
+    content: url(others/plus.png);
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+}
+
+.buttons[type="checkbox"]:checked {
+    content: url(others/check.png);
+}
+
+.native-hidden.buttons {
+    appearance: none;
+}
+
+#footerList {
+    color: lightgray;
+}
+
+#footerList * {
+    text-decoration: none;
+    color: lightgray;
+}
+
+/* LIST OF FAVOURITES */
+
+.listOfFavourites {
+    width: 100%;
+    margin-top: 5vh;
+}
+
+.listOfFavourites * {
+    padding: 10px;
+    text-align: center;
+}
+
+.listOfFavourites > thead,
+tbody > tr:nth-child(even) {
+    background: rgb(70, 80, 90);
+    color: white;
+}
+
+.listOfFavourites img {
+    height: 25px;
+    padding: 0;
+}
+
+.galaxyHeaders {
+    margin-top: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(70, 80, 90);
+}
+
+/* FORMIK */
+
+#formik {
+    margin: 5vh;
+}
+
+#formik * {
+    margin: 5px;
+}
+
+/* DETAILS */
+
+#details {
+    position: relative;
+    margin: 5vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#detailsFlag {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 25%;
+}
+
+.detailsUl {
+    list-style: none;
+}
+
+#detailsFormik {
+    margin: 5vh;
+}
+
+#detailsFormik * {
+    margin: 5px;
+}
